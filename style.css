@@ -1,0 +1,539 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* body{
+
+} */
+
+
+:root {
+    --H2--Font--Size: 2.3rem;
+    --p--Font--Size: 0.9rem;
+    --Main--color--: #57be88;
+    --p--color--: #3d4159;
+    --s-p-color--: #FFF;
+}
+
+.section {
+    margin: 10px 17%;
+}
+
+
+/* top header section  */
+
+
+.top-hader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-right-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.top-right-nav ul li a {
+    color: var(--p--color--);
+    font-weight: 500;
+}
+
+.top-right-nav ul li a:hover {
+    color: var(--Main--color--);
+    transition: .4s;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    padding: 14px 40px;
+    border-radius: 22px;
+    font-size: var(--p--Font--Size);
+    font-weight: 600;
+    color: var(--s-p-color--);
+    background-color: var(--Main--color--);
+    border: none;
+}
+
+
+
+/* hero section  */
+
+.Hero-section {
+    background-color: #57be88;
+    height: 342px;
+    border-radius: 80px 0px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.hero-two-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-img section {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+/* hero-bottom-five-car section  */
+
+.outer-product {
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.iner-five ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iner-five ul li {
+    text-align: center;
+}
+
+.iner-five ul li span {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--p--color--);
+}
+
+.iner-five ul li p {
+    color: var(--p--color--);
+    font-weight: 500
+}
+
+
+
+/* video section  */
+
+.video-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #F5F8FE;
+}
+
+.main-video-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.video-embed iframe {
+    border-radius: 20px;
+}
+
+.money-list ul div {
+    display: inline-block;
+    /* display: flex; */
+
+}
+
+.money-icone{
+    padding-right: 10px;
+}
+
+.money-list ul div i {
+    font-size: 50px;
+    color: var(--Main--color--);
+}
+
+.money-list ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.money-list li span {
+    font-size: 30px;
+    color: var(--p--color--);
+    font-weight: 700;
+}
+
+.money-list ul li small {
+    display: block;
+    text-align: center;
+}
+
+/* benifit Benefits  */
+
+.top-heading h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.top-heading span {
+    color: var(--Main--color--);
+}
+
+/* 
+.top-heading{
+    margin: 20px 0px;
+} */
+
+
+.inner-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.all-box {
+    width: 100%;
+    height: 50vh;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.top-heading h2 {
+margin-bottom: 25px;}
+
+.inner-box-all {
+    text-align: center;
+    border: 2px solid #DDE1FF;
+    border-radius: 15px;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.inner-box h3{
+    margin: 10px 0px;
+    font-size: 22px;
+    color: var(--p--color--);
+    font-weight: 700;
+}
+
+.inner-box p{
+    color: var(--p--color--);
+}
+
+
+/* loan-steps section  */
+
+
+.loan-heading h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.loan-heading span {
+    color: var(--Main--color--);
+}
+
+.loan-inner-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.loan-box{
+    text-align: center;
+    border: 2px solid #DDE1FF;
+    border-radius: 20px;
+    padding: 25px 30px 50px 30px;
+    position: relative;
+    background-color: #fff;
+    width: 23%;
+    height: 270px;
+}
+
+.loan-box h3{
+    font-size: 23px;
+    color: var(--p--color--);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.loan-icon img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.loan-steps-no{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: #DDE1FF;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 0px 30px 0px;
+    color: #3d4159;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loan-steps-no span{
+    color: var(--p--color--);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-loan-contaner{
+    padding-top: 95px;
+    padding-bottom: 60px;
+    
+}
+
+
+.loan-steps{
+    background-color: #EDF2FD;
+}
+
+.loan-img4 img{
+    width: 50px;
+}
+
+
+/* bank company logo  */
+
+.bank-inner-contaner{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.heading-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Partners-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Partners-title span {
+    color: var(--Main--color--);
+}
+
+
+.hading-arrows{
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-arrow{
+height: 50px;
+width: 50px;
+background-color: #DDDDDD;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+
+}
+
+.left-arrow i{
+    font-size: 28px;
+    color: #fff;
+}
+
+.right-arrow{
+    height: 50px;
+    width: 50px;
+    background-color: var(--Main--color--);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+}
+
+.right-arrow i{
+    font-size: 28px;
+    color: #fff;
+}
+
+.partners-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.indevisul-logo{
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 15%;
+    background-color: #F5F8FE;
+    border-radius: 20px;
+}
+
+.indevisul-logo img{
+    transform: scale(1.2);
+}
+
+/* section testimoneal  */
+
+.testimoneol{
+    background-color: #F5F8FE;
+}
+
+.testimoneol-contaner{
+    padding: 90px 0px;
+}
+
+.testimoneol-heading {
+    margin-bottom: 30px;
+}
+
+.testimoneol-text{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fist-testimoneol{
+    padding: 30px;
+    border: 2px solid var(--Main--color--);
+    background-color: #FAFCFF;
+    border-radius: 25px;
+}
+.fist-testimoneol p{
+    color: var(--p--color--);
+    font-size: 18px;
+}
+
+.testimoneol-img{
+    display: flex;
+    margin: 15px 0px;
+}
+
+.inner-testemoneol-img img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* blog news section  */
+
+.main-blog-contaner{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.heading-section{
+    margin-bottom: 40px;
+}
+
+.news-blog ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-img img{
+    width: 410px;
+    border-radius: 25px;
+}
+
+.text-news h3{
+    font-size: 18px;
+    color: var(--p--color--);
+    margin:10px 0px;
+}
+
+.text-news p{
+    color: #3d4159;
+}
+
+/* footer section  */
+
+.main-footer{
+    width: 100%;
+    height: auto;
+    background-color: #F5F8FE;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.footer-img img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+.footer-img p{
+    color: var(--p--color--);
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.footer-img{
+    width: 30%;
+}
+
+.footer-box h3{
+    color: var(--p--color--);
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.footer-box ul li{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: var(--p--color--);
+}
+
+.footer-box ul li a{
+    color: var(--p--color--);
+}
+
+.footer-shear i{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+hr{
+    border: 0.5px solid #DDE1FF;
+}
+
+.footer-logo{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.four-footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.four-footer-logo img{
+    width: 150px;
+    padding-left: 15px;
+
+}
+
+.logo-part p{
+    text-align: end;
+}
